@@ -19,6 +19,7 @@ public class RestClientConfig {
     @Value("${base.api.url}")
     private String BASE_URL;
 
+
     @Bean
     @Qualifier("currencyConverterRestClient")
     RestClient getCurrencyConverterRestClient(){
